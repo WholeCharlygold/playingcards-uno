@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/05/2018, 09:05:58 PM
+    Author     : Charly
+*/
+.card
+{
+	border: solid 1px #aaa;
+	border-radius: 9px;
+	width: 98px;
+	height: 150px;
+	float:left;
+	background-color: white;
+	padding: 3px 3px 3px 3px;
+}
+.mazo
+{
+	border: solid 1px #aaa;
+	border-radius: 9px;
+	width: 98px;
+	height: 150px;
+	float:left;
+	background-color: white;
+	
+}
+
+.vacio
+{
+	border: solid 1px #aaa;
+	border-radius: 9px;
+	width: 98px;
+	height: 150px;
+	float:left;
+	background-color: white;
+	
+}
+
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
+
+.card .suit
+{
+	background-image: url('suits.png');
+	height: 100px;
+	width: 90px;
+}
+
+.card .diamonds
+{
+	background-position-y: 100px;
+}
+
+.card .hearts
+{
+	background-position-x: 90px;
+}
+
+.card .clubs
+{
+	background-position-x:90px;
+	background-position-y:100px;
+}
+

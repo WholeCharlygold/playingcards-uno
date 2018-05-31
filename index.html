@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="card.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="card.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+
+    <body background="table.png">
+        <div id="status" name="status">
+            <h1>PROYECTO</h1>
+            
+            <div id="hand" class="w3-container">
+                <p>COMPUTADORA</p>
+            </div>
+            <BR><BR>
+            <div id="game" class="w3-half" ondrop="drop(this, event)" ondragenter="return false" ondragover="return false" >
+                
+            </div>
+  <p>MAZO</p>
+            <div id="mazo" class=" mazo" onclick="renderDeal()">
+            </div>
+             
+            <div id="hand2" class="w3-container"  >
+                  <p id="jugador">JUGADOR</p>
+               
+            </div>
+         
+<!--            <div id="deck"></div>-->
+
+        </div>
+    </body>
+</html>
